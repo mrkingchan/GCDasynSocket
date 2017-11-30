@@ -1,0 +1,621 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		648A88C80A3C59F8D6A8899C /* Pods_GCDasynSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE8C829F7A0EF6A10868B94D /* Pods_GCDasynSocket.framework */; };
+		D249380B1E82158200F98926 /* Server.m in Sources */ = {isa = PBXBuildFile; fileRef = D249380A1E82158200F98926 /* Server.m */; };
+		D27150991E8144220000922C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D27150981E8144220000922C /* main.m */; };
+		D271509C1E8144230000922C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D271509B1E8144230000922C /* AppDelegate.m */; };
+		D271509F1E8144230000922C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D271509E1E8144230000922C /* ViewController.m */; };
+		D27150A21E8144230000922C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D27150A01E8144230000922C /* Main.storyboard */; };
+		D27150A41E8144230000922C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D27150A31E8144230000922C /* Assets.xcassets */; };
+		D27150A71E8144230000922C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D27150A51E8144230000922C /* LaunchScreen.storyboard */; };
+		D27150B21E8144230000922C /* GCDasynSocketTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D27150B11E8144230000922C /* GCDasynSocketTests.m */; };
+		D27150BD1E8144240000922C /* GCDasynSocketUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D27150BC1E8144240000922C /* GCDasynSocketUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D27150AE1E8144230000922C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D271508C1E8144220000922C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D27150931E8144220000922C;
+			remoteInfo = GCDasynSocket;
+		};
+		D27150B91E8144230000922C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D271508C1E8144220000922C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D27150931E8144220000922C;
+			remoteInfo = GCDasynSocket;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4A916557568DE133833A8D59 /* Pods-GCDasynSocket.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GCDasynSocket.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GCDasynSocket/Pods-GCDasynSocket.debug.xcconfig"; sourceTree = "<group>"; };
+		80A4FEAE400CBFBFB2F69777 /* Pods-GCDasynSocket.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GCDasynSocket.release.xcconfig"; path = "Pods/Target Support Files/Pods-GCDasynSocket/Pods-GCDasynSocket.release.xcconfig"; sourceTree = "<group>"; };
+		D24938091E82158200F98926 /* Server.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Server.h; sourceTree = "<group>"; };
+		D249380A1E82158200F98926 /* Server.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Server.m; sourceTree = "<group>"; };
+		D27150941E8144220000922C /* GCDasynSocket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GCDasynSocket.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D27150981E8144220000922C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D271509A1E8144230000922C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D271509B1E8144230000922C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D271509D1E8144230000922C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D271509E1E8144230000922C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D27150A11E8144230000922C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D27150A31E8144230000922C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D27150A61E8144230000922C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D27150A81E8144230000922C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D27150AD1E8144230000922C /* GCDasynSocketTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GCDasynSocketTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D27150B11E8144230000922C /* GCDasynSocketTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCDasynSocketTests.m; sourceTree = "<group>"; };
+		D27150B31E8144230000922C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D27150B81E8144230000922C /* GCDasynSocketUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GCDasynSocketUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D27150BC1E8144240000922C /* GCDasynSocketUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCDasynSocketUITests.m; sourceTree = "<group>"; };
+		D27150BE1E8144240000922C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE8C829F7A0EF6A10868B94D /* Pods_GCDasynSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GCDasynSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D27150911E8144220000922C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				648A88C80A3C59F8D6A8899C /* Pods_GCDasynSocket.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D27150AA1E8144230000922C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D27150B51E8144230000922C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9280435EEA7F036E7204DC6C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4A916557568DE133833A8D59 /* Pods-GCDasynSocket.debug.xcconfig */,
+				80A4FEAE400CBFBFB2F69777 /* Pods-GCDasynSocket.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BB47601D0BEB19EECE72994F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE8C829F7A0EF6A10868B94D /* Pods_GCDasynSocket.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D271508B1E8144220000922C = {
+			isa = PBXGroup;
+			children = (
+				D27150961E8144220000922C /* GCDasynSocket */,
+				D27150B01E8144230000922C /* GCDasynSocketTests */,
+				D27150BB1E8144230000922C /* GCDasynSocketUITests */,
+				D27150951E8144220000922C /* Products */,
+				9280435EEA7F036E7204DC6C /* Pods */,
+				BB47601D0BEB19EECE72994F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D27150951E8144220000922C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D27150941E8144220000922C /* GCDasynSocket.app */,
+				D27150AD1E8144230000922C /* GCDasynSocketTests.xctest */,
+				D27150B81E8144230000922C /* GCDasynSocketUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D27150961E8144220000922C /* GCDasynSocket */ = {
+			isa = PBXGroup;
+			children = (
+				D271509A1E8144230000922C /* AppDelegate.h */,
+				D271509B1E8144230000922C /* AppDelegate.m */,
+				D271509D1E8144230000922C /* ViewController.h */,
+				D271509E1E8144230000922C /* ViewController.m */,
+				D24938091E82158200F98926 /* Server.h */,
+				D249380A1E82158200F98926 /* Server.m */,
+				D27150A01E8144230000922C /* Main.storyboard */,
+				D27150A31E8144230000922C /* Assets.xcassets */,
+				D27150A51E8144230000922C /* LaunchScreen.storyboard */,
+				D27150A81E8144230000922C /* Info.plist */,
+				D27150971E8144220000922C /* Supporting Files */,
+			);
+			path = GCDasynSocket;
+			sourceTree = "<group>";
+		};
+		D27150971E8144220000922C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D27150981E8144220000922C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D27150B01E8144230000922C /* GCDasynSocketTests */ = {
+			isa = PBXGroup;
+			children = (
+				D27150B11E8144230000922C /* GCDasynSocketTests.m */,
+				D27150B31E8144230000922C /* Info.plist */,
+			);
+			path = GCDasynSocketTests;
+			sourceTree = "<group>";
+		};
+		D27150BB1E8144230000922C /* GCDasynSocketUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D27150BC1E8144240000922C /* GCDasynSocketUITests.m */,
+				D27150BE1E8144240000922C /* Info.plist */,
+			);
+			path = GCDasynSocketUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D27150931E8144220000922C /* GCDasynSocket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D27150C11E8144240000922C /* Build configuration list for PBXNativeTarget "GCDasynSocket" */;
+			buildPhases = (
+				CF8A5002C7FEB7860797F78E /* [CP] Check Pods Manifest.lock */,
+				D27150901E8144220000922C /* Sources */,
+				D27150911E8144220000922C /* Frameworks */,
+				D27150921E8144220000922C /* Resources */,
+				2209841717AE57FF9CC58969 /* [CP] Embed Pods Frameworks */,
+				1EE8731FF474F84A461D234D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GCDasynSocket;
+			productName = GCDasynSocket;
+			productReference = D27150941E8144220000922C /* GCDasynSocket.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D27150AC1E8144230000922C /* GCDasynSocketTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D27150C41E8144240000922C /* Build configuration list for PBXNativeTarget "GCDasynSocketTests" */;
+			buildPhases = (
+				D27150A91E8144230000922C /* Sources */,
+				D27150AA1E8144230000922C /* Frameworks */,
+				D27150AB1E8144230000922C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D27150AF1E8144230000922C /* PBXTargetDependency */,
+			);
+			name = GCDasynSocketTests;
+			productName = GCDasynSocketTests;
+			productReference = D27150AD1E8144230000922C /* GCDasynSocketTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D27150B71E8144230000922C /* GCDasynSocketUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D27150C71E8144240000922C /* Build configuration list for PBXNativeTarget "GCDasynSocketUITests" */;
+			buildPhases = (
+				D27150B41E8144230000922C /* Sources */,
+				D27150B51E8144230000922C /* Frameworks */,
+				D27150B61E8144230000922C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D27150BA1E8144230000922C /* PBXTargetDependency */,
+			);
+			name = GCDasynSocketUITests;
+			productName = GCDasynSocketUITests;
+			productReference = D27150B81E8144230000922C /* GCDasynSocketUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D271508C1E8144220000922C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Chan;
+				TargetAttributes = {
+					D27150931E8144220000922C = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = VR97LDHCPV;
+						ProvisioningStyle = Automatic;
+					};
+					D27150AC1E8144230000922C = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D27150931E8144220000922C;
+					};
+					D27150B71E8144230000922C = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D27150931E8144220000922C;
+					};
+				};
+			};
+			buildConfigurationList = D271508F1E8144220000922C /* Build configuration list for PBXProject "GCDasynSocket" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D271508B1E8144220000922C;
+			productRefGroup = D27150951E8144220000922C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D27150931E8144220000922C /* GCDasynSocket */,
+				D27150AC1E8144230000922C /* GCDasynSocketTests */,
+				D27150B71E8144230000922C /* GCDasynSocketUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D27150921E8144220000922C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D27150A71E8144230000922C /* LaunchScreen.storyboard in Resources */,
+				D27150A41E8144230000922C /* Assets.xcassets in Resources */,
+				D27150A21E8144230000922C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D27150AB1E8144230000922C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D27150B61E8144230000922C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1EE8731FF474F84A461D234D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GCDasynSocket/Pods-GCDasynSocket-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2209841717AE57FF9CC58969 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GCDasynSocket/Pods-GCDasynSocket-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF8A5002C7FEB7860797F78E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D27150901E8144220000922C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D271509F1E8144230000922C /* ViewController.m in Sources */,
+				D271509C1E8144230000922C /* AppDelegate.m in Sources */,
+				D249380B1E82158200F98926 /* Server.m in Sources */,
+				D27150991E8144220000922C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D27150A91E8144230000922C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D27150B21E8144230000922C /* GCDasynSocketTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D27150B41E8144230000922C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D27150BD1E8144240000922C /* GCDasynSocketUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D27150AF1E8144230000922C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D27150931E8144220000922C /* GCDasynSocket */;
+			targetProxy = D27150AE1E8144230000922C /* PBXContainerItemProxy */;
+		};
+		D27150BA1E8144230000922C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D27150931E8144220000922C /* GCDasynSocket */;
+			targetProxy = D27150B91E8144230000922C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D27150A01E8144230000922C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D27150A11E8144230000922C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D27150A51E8144230000922C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D27150A61E8144230000922C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D27150BF1E8144240000922C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D27150C01E8144240000922C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D27150C21E8144240000922C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A916557568DE133833A8D59 /* Pods-GCDasynSocket.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VR97LDHCPV;
+				INFOPLIST_FILE = GCDasynSocket/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Chan.GCDasynSocket;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D27150C31E8144240000922C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80A4FEAE400CBFBFB2F69777 /* Pods-GCDasynSocket.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VR97LDHCPV;
+				INFOPLIST_FILE = GCDasynSocket/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Chan.GCDasynSocket;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D27150C51E8144240000922C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GCDasynSocketTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Chan.GCDasynSocketTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GCDasynSocket.app/GCDasynSocket";
+			};
+			name = Debug;
+		};
+		D27150C61E8144240000922C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GCDasynSocketTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Chan.GCDasynSocketTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GCDasynSocket.app/GCDasynSocket";
+			};
+			name = Release;
+		};
+		D27150C81E8144240000922C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GCDasynSocketUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Chan.GCDasynSocketUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GCDasynSocket;
+			};
+			name = Debug;
+		};
+		D27150C91E8144240000922C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GCDasynSocketUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Chan.GCDasynSocketUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GCDasynSocket;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D271508F1E8144220000922C /* Build configuration list for PBXProject "GCDasynSocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D27150BF1E8144240000922C /* Debug */,
+				D27150C01E8144240000922C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D27150C11E8144240000922C /* Build configuration list for PBXNativeTarget "GCDasynSocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D27150C21E8144240000922C /* Debug */,
+				D27150C31E8144240000922C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D27150C41E8144240000922C /* Build configuration list for PBXNativeTarget "GCDasynSocketTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D27150C51E8144240000922C /* Debug */,
+				D27150C61E8144240000922C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D27150C71E8144240000922C /* Build configuration list for PBXNativeTarget "GCDasynSocketUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D27150C81E8144240000922C /* Debug */,
+				D27150C91E8144240000922C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D271508C1E8144220000922C /* Project object */;
+}
